@@ -18,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about_sets.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python2/koans/about_sets.py">
+      <file leaf-file-name="about_triangle_project.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python2/koans/about_triangle_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="378">
+              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <folding>
+                <element signature="e#47#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_exceptions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python2/koans/about_exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="67" column="36" lean-forward="false" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -56,6 +68,8 @@
         <option value="$PROJECT_DIR$/python2/koans/about_control_statements.py" />
         <option value="$PROJECT_DIR$/python2/koans/about_true_and_false.py" />
         <option value="$PROJECT_DIR$/python2/koans/about_sets.py" />
+        <option value="$PROJECT_DIR$/python2/koans/about_triangle_project.py" />
+        <option value="$PROJECT_DIR$/python2/koans/about_exceptions.py" />
       </list>
     </option>
   </component>
@@ -456,8 +470,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python2/koans/about_sets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="357">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python2/koans/about_triangle_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#47#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python2/koans/about_exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="67" column="36" lean-forward="false" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
           <folding />
         </state>
       </provider>
