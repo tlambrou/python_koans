@@ -17,7 +17,7 @@ class AboutTriangleProject2(Koan):
         # calls triangle(0, 0, 0)
         
         # All sides should be greater than 0
-        self.assertRaises(TriangleError, triangle, 0, 0, 0)
+        self.assertRaises(TriangleError, triangle, 0, 0, 0)   # DO NOT UNDERSTAND
         self.assertRaises(TriangleError, triangle, 3, 4, -5)
 
         # The sum of any two sides should be greater than the third one
