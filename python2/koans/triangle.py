@@ -18,12 +18,22 @@
 #   about_triangle_project_2.py
 #
 def triangle(a, b, c):
-    if a is b and a is c:
-        return 'equilateral'
-    elif a is b or b is c or a is c:
-        return 'isosceles'
-    else:
-        return 'scalene'
+    side = sorted([a, b, c])
+
+    if 0 in side:
+        raise TriangleError, "Side length cannot be 0"
+    elif side[0] < 0:
+        raise TriangleError, "Side length cannot be below 0"
+    elif side[0] + side[1] < side[2]:
+        raise TriangleError, "Incoherent side lengths"
+
+    types = {
+        1: 'equilateral',
+        2: 'isosceles',
+        3: 'scalene'
+    }
+    side_length_count = len(set(side))
+    return types[side_length_count]
 
 # Error class used in part 2.  No need to change this code.
 class TriangleError(StandardError):
